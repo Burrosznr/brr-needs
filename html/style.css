@@ -1,0 +1,44 @@
+#hud {
+  position: absolute;
+  bottom: 5%;
+  right: 2%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 999;
+}
+  
+.need {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 6px 10px;
+  border-radius: 8px;
+  border-left: 4px solid #ffc400; 
+  box-sizing: border-box; 
+}
+
+.need i {
+  font-size: 20px;
+  color: #ffc400;
+  min-width: 24px;
+  text-align: center;
+}
+
+.bar {
+  width: 150px;
+  height: 12px;
+  background: #333;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.fill {
+  height: 100%;
+  background: #ffc400;
+  width: 0%;
+  transition: width 0.3s ease;
+  border-radius: 6px;
+}
+  
