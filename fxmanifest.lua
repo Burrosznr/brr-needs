@@ -28,9 +28,3 @@ files {
     'html/style.css',
     'html/script.js'
 }
-
-escrow_ignore {
-	'shared/config.lua',
-	'client/cl_utils.lua',
-	'server/sv_utils.lua' 
-}
