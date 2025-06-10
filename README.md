@@ -5,6 +5,7 @@ Essential needs with HUD. Give a more realistic taste to your fivem server with 
 
 Dependencies:
 - ESX
+- oxmysql
 - ox_lib
 
 # Events
