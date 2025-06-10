@@ -3,10 +3,14 @@
 # brr-needs
 Essential needs with HUD. Give a more realistic taste to your fivem server with pee, poo and sleep. I made this resource for my survival game mode. This script is made for ESX framework.
 
-# Client Event
+# Event
+
+Client side:
 TriggerEvent('brr-needs:client:ModifyNeed', 'pipi', 30000) -- [pipi or cacca or sonno]
 
-# Server Event
+Server Side:
 TriggerClientEvent('brr-needs:client:ModifyNeed', source, 'pipi', 30000) -- [pipi or cacca or sonno]
+
+# Preview
 
 🎥 [VIDEO PREVIEW](https://www.youtube.com/watch?v=uJ1kJWPaXWw)
